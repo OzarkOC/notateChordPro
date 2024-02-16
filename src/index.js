@@ -8,7 +8,6 @@ window.Webflow.push(() => {
   const transposeLevel = document.querySelector(`[chordPro="transposeLevel"]`);
   // console.log(transposeLevel);
   const transpose = parseInt(transposeLevel.dataset.transpose) || 0;
-
   updateDisplay(songData, display, transpose);
 
   // EVENT LISTNERS
