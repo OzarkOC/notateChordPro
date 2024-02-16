@@ -1,5 +1,3 @@
-import { greetUser } from '$utils/greet';
-
 window.Webflow ||= [];
 window.Webflow.push(() => {
   const display = document.querySelector(`[chordPro="display"]`);
