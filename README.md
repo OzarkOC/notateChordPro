@@ -34,7 +34,9 @@ This was designed to be used with **_Webflow_** Attributes but can be used in an
 Add the script below to the body of your HTML file of the page that has the attributes.
 
 ```bash
-<script defer src="http://localhost:3000/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/OzarkOC/notateChordPro@1/src/index.ts">
+</script>
 ```
 
 ## Attributes
